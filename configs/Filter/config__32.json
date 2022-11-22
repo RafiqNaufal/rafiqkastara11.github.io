@@ -1,0 +1,10 @@
+{
+  "taskOper": "OR",
+  "groupByLayer": true,
+  "zoomto": false,
+  "zoombackto": false,
+  "allowCustom": true,
+  "allowResetAll": true,
+  "allowTurnOffAll": true,
+  "filters": []
+}

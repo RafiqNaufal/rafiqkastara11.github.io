@@ -1,0 +1,274 @@
+{
+  "layerInfos": [
+    {
+      "name": "Pemberhentian Bus",
+      "id": "6a8c8186335a47cdba98650962712cd5",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Jaklingko_JKT_WFL1/FeatureServer/0",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "qc_id",
+            "alias": "qc_id",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "kode_rute",
+            "alias": "kode_rute",
+            "show": true
+          },
+          {
+            "name": "rute",
+            "alias": "rute",
+            "show": true
+          },
+          {
+            "name": "nama_perhe",
+            "alias": "nama_perhe",
+            "show": true
+          },
+          {
+            "name": "koordinat",
+            "alias": "koordinat",
+            "show": true
+          },
+          {
+            "name": "tipe_perhe",
+            "alias": "tipe_perhe",
+            "show": true
+          },
+          {
+            "name": "kategori_r",
+            "alias": "kategori_r",
+            "show": true
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "nama_perhe",
+      "isDescending": false
+    },
+    {
+      "name": "Lintasan Rute",
+      "id": "b9a5b703b49749b0b5878beb56c4c027",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Jaklingko_JKT_WFL1/FeatureServer/1",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "qc_id",
+            "alias": "qc_id",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "route_code",
+            "alias": "route_code",
+            "show": true
+          },
+          {
+            "name": "route_name",
+            "alias": "route_name",
+            "show": true
+          },
+          {
+            "name": "route_type",
+            "alias": "route_type",
+            "show": true
+          },
+          {
+            "name": "km_gis",
+            "alias": "km_gis",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "route_name",
+      "isDescending": false
+    },
+    {
+      "name": "Area Terlayani",
+      "id": "de8d2c481bf54d2cbac3eb28920d7227",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Jaklingko_JKT_WFL1/FeatureServer/2",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "RW",
+            "alias": "RW",
+            "show": true
+          },
+          {
+            "name": "KELURAHAN",
+            "alias": "KELURAHAN",
+            "show": true
+          },
+          {
+            "name": "KECAMATAN",
+            "alias": "KECAMATAN",
+            "show": true
+          },
+          {
+            "name": "KOTA_ADMIN",
+            "alias": "KOTA_ADMIN",
+            "show": true
+          },
+          {
+            "name": "LUAS",
+            "alias": "LUAS",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "JUMLAH_PEN",
+            "alias": "JUMLAH_PEN",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "ID",
+            "alias": "ID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "KEPADATAN",
+            "alias": "KEPADATAN",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "SERVED_ARE",
+            "alias": "SERVED_ARE",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "Shape__Area",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "KELURAHAN",
+      "isDescending": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": true,
+  "initiallyExpand": false,
+  "filterByMapExtent": true,
+  "allowTextSelection": true,
+  "syncWithLayers": false
+}
